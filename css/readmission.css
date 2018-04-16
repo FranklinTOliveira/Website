@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	text-align: center;
+	}
+
+body{
+	color: #061C37;
+	background: linear-gradient(to right, #0000ff , #abb0b4);
+	}
+
+@font-face{
+    font-family: borr;
+    src: url(../fonts/borr.ttf);
+	}
+
+#header{
+	margin: 0 auto;
+	background:url('../images/CivilWarBattle.jpg') center no-repeat;
+	width:880px;
+	height:500px;
+	position:relative;
+}
+
+#inscription{
+	position:absolute;
+	margin:25% auto auto 8%;
+	}
+
+#menudiv{
+    width:880px;
+    height:160px;
+    margin:0 auto;
+    }
+
+.menu{
+    display: inline-block;
+    list-style-type:none;
+    width:100%;
+    text-align:center;
+    background-color:#f8e376;
+    border:1px solid blue;
+    }
+    
+.menuitem{
+    position:relative;
+    display:inline-block;
+    padding: 5px 10px;
+    margin:0 0.05%;
+    height:160px;
+    width:150px;
+    list-style-type: none;
+    overflow: hidden;
+    color:black;
+    font-size:16px;
+    text-align:center;
+    background-color:#f8e376;
+    }
+	
+.submenu{
+    display:none;
+    position:absolute;
+    background-color:#f8e376;
+    text-align:left;
+    width:150px;
+    }
+
+.subitem{
+	line-height:2em;
+	text-align:center;
+	padding:5% 0;
+	background-color:#f8e376;
+	}
+	
+.menuitem:hover > .submenu {
+    display:block;
+	color: black;
+    font:black 16px;
+    text-align: left;
+    background-color: white;
+    }
+
+.menu a{
+	color:black;
+	text-decoration:none;
+	padding-left:-2%;
+}
+
+#content{
+	width:820px;
+	height:1150px;
+	background-color:#f8e376;
+	padding:0 30px;
+	font-family: borr, Old Standard TT;
+	font-size:48px;
+	text-align: justify;
+	margin-top:-58px;
+	}
+
+#aside{
+	width:30%;
+	float:right;
+	}
+
+#aside h1{
+	text-align:left;
+	padding-left:14%;
+	font-size:28px;
+	}
+
+#aside ul li{
+	font-size:26px;
+	}
+
+h1{
+	color:#bf0a30;
+	text-shadow: 2px 2px 2px white;
+	}
+	
+#footer{
+	width:850px;
+	clear:both;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	}

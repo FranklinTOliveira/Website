@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header{
+	background:url('../images/FlagofFrance.png') center no-repeat;
+	height:200px;
+}
+
+#menudiv{
+    width:100%;
+    margin:0;
+    }
+
+.menu{
+    display: inline-block;
+    list-style-type:none;
+    width:100%;
+    text-align:center;
+    background-color:white;
+    }
+    
+.menuitem{
+    position:relative;
+    display:inline-block;
+    padding: 5px 10px;
+    margin:2% 3% 2% 3%;
+    height:140px;
+    width:150px;
+    list-style-type: none;
+    overflow: hidden;
+    color:black;
+    font-size:16px;
+    text-align:center;
+    }
+	
+.submenu{
+    display:none;
+    position:absolute;
+    background-color: white;
+    text-align:left;
+    width:150px;
+    }
+
+.subitem{
+	line-height:2em;
+	text-align:center;
+	padding:5% 0;
+	}
+	
+.menuitem:hover > .submenu {
+    display:block;
+	color: black;
+    font:black 16px;
+    text-align: left;
+    background-color: white;
+    }
+
+.menu a{
+	color:black;
+	text-decoration:none;
+	padding-left:-2%;
+}
+	
+#maincontent{
+	position: relative;
+	width: 100%;
+	height: 1600px;
+	}
+
+#timeline{
+	position: absolute;
+	top: 40px;
+	bottom:auto;
+	left: 5%;
+	right:auto;
+	width: 38%;
+	height: 800px;
+	padding:15px;
+	font-size:15px;
+	border:1px solid black;
+	}
+
+#toarms{
+	background:url('../images/LibertyGuidingthePeople.jpg') center no-repeat;
+	width:42%;
+	height:400px;
+	position: absolute;
+	top:40px;
+	bottom:auto;
+	left:auto;
+	right:5%;
+	border:1px solid black;
+	}
+
+#explanation{
+	width:38%;
+	height:400px;
+	position: absolute;
+	top:440px;
+	bottom:auto;
+	left:auto;
+	right:5%;
+	border:1px solid black;
+	padding:1% 2%;
+	font-size:21px;
+	}
+
+#NE{
+	position: absolute;
+	top:40px;
+	bottom:auto;
+	left:auto;
+	right:5%;
+	width:40%;
+	height:800px;
+	padding: 15px;
+	}
+
+#table{
+	position:absolute;
+	top:auto;
+	bottom:0px;
+	left:5%;
+	right:auto;
+	width:40%;
+	height:675px;
+	line-height:2em;
+	font-size:20px;
+	border-collapse:separate;
+	border:1px solid black;
+	}
+
+th, tr, td{
+	padding:1%;
+	border-collapse:separate;
+	border:1px solid black;
+	text-align:center;
+	}
+
+#caption{
+	padding:1%;
+	border:1px solid black;
+	text-align:center;
+	width:97%;
+	}
+
+#form{
+	position:absolute;
+	top:auto;
+	bottom:0px;
+	left:auto;
+	right:5%;
+	width:40%;
+	height:650px;
+	font-size:15px;
+	padding: 15px;
+	border:1px solid black;
+	}
+
+#footer{
+	clear:both;
+	margin-left:5%;
+	}
