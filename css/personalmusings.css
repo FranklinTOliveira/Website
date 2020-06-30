@@ -17,61 +17,6 @@ body{
 	width:100%;
 }
 
-#menudiv{
-    width:100%;
-    margin:0;
-    }
-
-.menu{
-    display: inline-block;
-    list-style-type:none;
-    width:100%;
-    text-align:center;
-    background-color:aqua;
-    }
-    
-.menuitem{
-    position:relative;
-    display:inline-block;
-    padding: 5px 10px;
-    margin:2% 2.5%;
-    height:140px;
-    width:150px;
-    list-style-type: none;
-    overflow: hidden;
-    color:black;
-    font-size:16px;
-    text-align:center;
-    }
-	
-.submenu{
-    display:none;
-    position:absolute;
-    background-color: aqua;
-    text-align:left;
-    width:150px;
-    }
-
-.subitem{
-	line-height:2em;
-	text-align:center;
-	padding:5% 0;
-	}
-	
-.menuitem:hover > .submenu {
-    display:block;
-	color: black;
-    font:black 16px;
-    text-align: left;
-    background-color: aqua;
-    }
-
-.menu a{
-	color:black;
-	text-decoration:none;
-	padding-left:-2%;
-	}
-
 #container{
     width:100%;
     text-align:center;
