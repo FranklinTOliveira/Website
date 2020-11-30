@@ -11,19 +11,28 @@
 	clear: both;
     }
 
-#columnleft{
-	width:49%;
+#columnone{
+	width:33%;
 	height:20em;
-	margin: 15% 50% 20% 0;
+	margin: 15% 33% 20% 0;
 	float:left;
 	border:1px black;
 	position:absolute;
 	}
 
-#columnright{
-	width:49%;
+#columntwo{
+	width:33%;
 	height:20em;
-	margin: 15% 0 20% 50%;
+	margin: 15% 66% 20% 0;
+	float:left;
+	border:1px black;
+	position:absolute;
+	}
+
+#columnthree{
+	width:33%;
+	height:20em;
+	margin: 15% 0 20% 33%;
 	border:1px black;
 	float:right;
 	position:absolute;
@@ -97,20 +106,29 @@
 	background:url('../images/RoyalsOfBritain.png') center no-repeat;
     }
 
-#clbutton{
+#onebutton{
     background:url('../images/AboutMe.png') center no-repeat;
     width:200px;
     height:40px;
-    margin: 18% 35% 55%;
+    margin: 5%;
     border:1px black;
     position:absolute;
     }
 
-#crbutton{
-    background:url('../images/Demos.png') center no-repeat;
+#twobutton{
+    background:url('../images/DemoEssays.png') center no-repeat;
+    width:200px;
+    height:40px;
+    margin: 25%;
+    border:1px black;
+    position:absolute;
+    }
+
+#threebutton{
+    background:url('../images/DemoSites.png') center no-repeat;
     width:200px;
 	height:40px;
-	margin: 18% 35%;
+	margin: 45%;
 	border:1px black;
 	position:absolute;
     }
