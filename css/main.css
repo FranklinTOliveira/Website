@@ -14,27 +14,24 @@
 #columnone{
 	width:33%;
 	height:20em;
-	margin: 15% 33% 20% 0;
+	margin: 15% 0;
 	float:left;
-	border:1px black;
 	position:absolute;
 	}
 
 #columntwo{
 	width:33%;
 	height:20em;
-	margin: 15% 66% 20% 0;
+	margin: 15% 33%;
 	float:left;
-	border:1px black;
 	position:absolute;
 	}
 
 #columnthree{
 	width:33%;
 	height:20em;
-	margin: 15% 0 20% 33%;
-	border:1px black;
-	float:right;
+	margin: 15% 66%;
+	float:left;
 	position:absolute;
 	}
 
@@ -110,8 +107,7 @@
     background:url('../images/AboutMe.png') center no-repeat;
     width:200px;
     height:40px;
-    margin: 5%;
-    border:1px black;
+    margin: 27% 25%;
     position:absolute;
     }
 
@@ -119,8 +115,7 @@
     background:url('../images/DemoEssays.png') center no-repeat;
     width:200px;
     height:40px;
-    margin: 25%;
-    border:1px black;
+    margin: 26% 29%;
     position:absolute;
     }
 
@@ -128,8 +123,7 @@
     background:url('../images/DemoSites.png') center no-repeat;
     width:200px;
 	height:40px;
-	margin: 45%;
-	border:1px black;
+	margin: 26% 25%;
 	position:absolute;
     }
 
